@@ -37,8 +37,7 @@ public class UsuariosController {
 	public String B(){	
 		return "B";
 	}
-	
-	
+
 	// ruta para eliminar por id
 	@GetMapping("/eliminar/{id}")
 	public String eliminar(@PathVariable int id) throws SQLException {
